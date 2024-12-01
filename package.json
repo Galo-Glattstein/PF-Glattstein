@@ -1,0 +1,23 @@
+{
+  "name": "frescas.com",
+  "version": "1.0.0",
+  "description": "E-commerse de cervezas.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Galo-Glattstein/PF-Glattstein.git"
+  },
+  "keywords": [
+    "Delivery",
+    "Cervezas"
+  ],
+  "author": "Galo Glattstein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Galo-Glattstein/PF-Glattstein/issues"
+  },
+  "homepage": "https://github.com/Galo-Glattstein/PF-Glattstein#readme"
+}
