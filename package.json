@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "E-commerse de cervezas.",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "npm run test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Galo-Glattstein/PF-Glattstein.git"
+    "dev": "nodemon ./src/app.js"
+
   },
   "keywords": [
     "Delivery",
@@ -19,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Galo-Glattstein/PF-Glattstein/issues"
   },
-  "homepage": "https://github.com/Galo-Glattstein/PF-Glattstein#readme"
+  "homepage": "https://github.com/Galo-Glattstein/PF-Glattstein#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
 }
