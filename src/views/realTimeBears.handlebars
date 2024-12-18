@@ -1,0 +1,41 @@
+<header>
+    <h1>INICIO - Ingredientes en Tiempo Real</h1>
+</header>
+
+<main>
+    <section>
+        <h3>Ingredientes</h3>
+        
+        <div class="bears">
+            <div class="bears__list">
+                <ul class="bears__list__item" id="bears-list"></ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h3>Formulario de Ingredientes</h3>
+        <form class="bears__form" id="bears-form">
+            <input type="text" name="title" placeholder="Nombre la cerveza">
+            <div>¿Está activo?<input type="checkbox" name="status"></div>
+            <input type="number" name="stock" placeholder="Stock de la cerveza">
+
+            <input type="submit" value="Guardar" style="width: 100%">
+        </form>
+    </section>
+
+    <section>
+        <h3>Eliminación de cervezas</h3>
+        <div class="bears__delete">
+            <input type="number" class="bears__delete__input" id="input-bear-id"
+                placeholder="ID de la cerveza">
+            <button id="btn-delete-bear">Eliminar</button>
+        </div>
+    </section>
+
+    <p class="error-message" id="error-message"></p>
+</main>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/api/public/js/ingredients.socket.js"></script>
